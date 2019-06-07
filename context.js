@@ -19,9 +19,13 @@
 */
   
 
-//Code Here
-
-
+let user = {
+  username: 'rory',
+  email: 'markham',
+  getUsername: function() {
+    return this.username
+  }
+}
 
 ////////// PROBLEM 2 //////////
 
@@ -41,8 +45,7 @@ class Animal {
   }
 }
 
-//Code Here
-
+let animal1 = new Animal
 
 
 ////////// PROBLEM 3 //////////
@@ -61,7 +64,18 @@ let who = {
   location: 'Belize'
 }
 
-//Code Here
+let whoSaysHi = 
+
+
+
+
+// var unboundGetX = module.getX;
+// console.log(unboundGetX()); // The function gets invoked at the global scope
+// // expected output: undefined
+
+// var boundGetX = unboundGetX.bind(module);
+// console.log(boundGetX());
+// // expected output: 42
 
 
 
